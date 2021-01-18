@@ -1,0 +1,45 @@
+Boston
+
+LightGBM
+Fitting 5 folds for each of 192 candidates, totalling 960 fits
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done 960 out of 960 | elapsed:  3.5min finished
+mean_absolute_error MAE: 3.0752236832868967
+mean_squared_error RMSE: 17.198773334206997
+LightGBM best score: -17.1987733342
+best params: {'learning_rate': 0.1, 'max_depth': 25, 'n_estimators': 500, 'num_leaves': 100}
+best validated score:  -11.9318294832
+best prediction with best_forest by r2_score:  0.8219484174426217
+
+RandomForest
+Fitting 5 folds for each of 35 candidates, totalling 175 fits
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done 175 out of 175 | elapsed:   46.6s finished
+mean_absolute_error MAE: 2.9814976996265896
+mean_squared_error RMSE: 19.279327069903168
+RandomForestRegressor best score: 0.8004093299
+best params: {'max_depth': 7, 'min_samples_leaf': 1}
+best validated score:  0.8528282320
+best prediction with best_forest by r2_score:  0.8004093298555099
+
+SVR
+Fitting 5 folds for each of 400 candidates, totalling 2000 fits
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done 2000 out of 2000 | elapsed:   23.8s finished
+Epsilon-Support Vector Regression best score: 0.8291066501
+best params: {'C': 100.0, 'epsilon': 2.3357214690901213}
+best validated score:  0.8569288574
+best prediction with best_forest by r2_score:  0.8291066501228186
+mean_absolute_error MAE: 2.9229526307040383
+mean_squared_error RMSE: 16.507328644011423
+
+XGBoost
+Fitting 5 folds for each of 36 candidates, totalling 180 fits
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done 180 out of 180 | elapsed:   27.7s finished
+XGBoost best score: -114.4716170660
+best params: {'colsample_bytree': 0.8, 'eta': 0.01, 'gamma': 3, 'max_depth': 7, 'min_child_weight': 1, 'subsample': 1.0}
+best validated score:  -98.4137135073
+best prediction with best_forest by r2_score:  -0.18507594585074072
+mean_absolute_error MAE: 9.254785795772777
+mean_squared_error RMSE: 114.47161706602452

@@ -1,0 +1,6 @@
+RandomForestRegressor best score: 0.8718909518
+best params: {'max_depth': 6, 'min_samples_leaf': 1}
+best validated score:  0.8469154964
+best prediction with best_forest by r2_score:  0.8718909518354405
+mean_absolute_error MAE: 1.6919849630709198
+mean_squared_error RMSE: 5.508701179681746

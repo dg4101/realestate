@@ -1,0 +1,6 @@
+LightGBM best score: -10.6792875640
+best params: {'learning_rate': 0.05, 'max_depth': 25, 'n_estimators': 100, 'num_leaves': 100}
+best validated score:  -7.7662307571
+best prediction with best_forest by r2_score:  0.8558996057907338
+mean_absolute_error MAE: 2.631911070496258
+mean_squared_error RMSE: 10.679287563968826

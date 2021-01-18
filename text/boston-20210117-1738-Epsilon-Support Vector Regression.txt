@@ -1,0 +1,6 @@
+Epsilon-Support Vector Regression best score: 0.8762707560
+best params: {'C': 11.28837891684689, 'epsilon': 1.438449888287663}
+best validated score:  0.8636482422
+best prediction with best_forest by r2_score:  0.8762707559874104
+mean_absolute_error MAE: 2.384455117086822
+mean_squared_error RMSE: 9.89186106233536

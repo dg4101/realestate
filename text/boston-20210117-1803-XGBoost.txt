@@ -1,0 +1,6 @@
+XGBoost best score: -0.1122344555
+best params: {'colsample_bytree': 0.8, 'eta': 0.01, 'gamma': 3, 'max_depth': 8, 'min_child_weight': 1, 'subsample': 1.0}
+best validated score:  -0.2551631486
+best prediction with best_forest by r2_score:  -0.11223445554730938
+mean_absolute_error MAE: 8.379670608404911
+mean_squared_error RMSE: 88.92051988854573
